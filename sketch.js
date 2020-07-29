@@ -9,9 +9,9 @@ function setup() {
   weight=random(30,152);
   thickness=random(22,83);
 
-  car=createSprite(200,100,100,20);
-  car.velocityX=speed;
-  car.shapeColor=color(255);
+  bullet=createSprite(200,100,100,20);
+  bullet.velocityX=speed;
+  bullet.shapeColor=color(255);
 
   wall=createSprite(1335,100,thickness,height/2);    
   wall.shapeColor=color(80,80,80);
